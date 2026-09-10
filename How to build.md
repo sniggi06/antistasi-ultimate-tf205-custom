@@ -74,7 +74,7 @@ arma should start with everything ready for you, (the logging alternate will ope
   (a {folder to re-pack}.pbo should have been created in `build/@A3A/addons`)
 
 ### Running
-* copy the @A3A folder from your `build/` directory into your arma 3 stemm install directory (or symbolic link it, recommended)
+* copy the @A3A folder from your `build/` directory into your arma 3 steam install directory (or symbolic link it, recommended)
   (to find where your arma3 is installed by steam open library>Arma3>cogwheel>manage>browse local files)
 * in the arma 3 launcher, under the `Mods` tab click `...More` -> `Add watched folder...` -> `Add 'Arma 3' folder`, this will automatically add local mods in yuor arma directory to your mods list for easy loading
 

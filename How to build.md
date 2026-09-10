@@ -1,6 +1,9 @@
 # How to build (Mod)
+
+*FÜR TF205: Ich empfehle den unteren Weg "with Arma3 Tools" zu verwenden*
+
 ## Common setup
-* install Arma 3 Tools in the same steam library that Arma 3 is installed
+* install Arma 3 Tools in the same steam library that Arma 3 is installed in
 ## With Vs code Arma Dev Extension
 ### First time setup
 * Install extension from [marketplace](https://marketplace.visualstudio.com/items?itemName=ole1986.arma-dev)
@@ -60,16 +63,22 @@ arma should start with everything ready for you, (the logging alternate will ope
   * add to `List of files to copy directly` this line `*.p3d;*.paa;*.hpp;*.sqf`
   * click the tree dots next to `Path to project folder` and navigate to the repository's `A3A` folder
   * optionally add a path to a `.biprivatekey` for signing, this allows you to leave key verification on for dedicated server testing
-* back in the main window, add a source directory, this will be in turn each addon folder in `repository -> A3A -> addons -> {folder to build}`
-* and add a destination folder, this would be for example `repository -> build -> @A3A -> addons`
-* ensure for testing that it dosnt binarize the files
+  * add a destination folder, this would be for example `{your cloned repository} -> build -> @A3A -> addons` 
+  * ensure for testing that it dosnt binarize the files by turning "Binarize" to "off"
+* Repeat the next step for each folder in <where you stored your repo>/A3A/addons/ :
+  * back in the main window, add a source directiory. This will be the individual folders from `addons/` that you want to re-pack: `repository -> A3A -> addons -> {folder to re-pack}`
+    (if you changed something in addons/hals, then select addons/hals. Do this for EACH folder changed)
+  * go into the options menu again and set the "Addon prefix" to `x\A3A\addons\{folder to re-pack}`
+    (i.e. when re-packing addons\hals set this to `x\A3A\addons\hals`
 * now to simply press build and repeat for each folder in the `A3A -> addons`
+  (a {folder to re-pack}.pbo should have been created in `build/@A3A/addons`)
 
 ### Running
-* copy the folder in your build directory to your arma 3 directory (or symbolic link it, recommended)
+* copy the @A3A folder from your `build/` directory into your arma 3 stemm install directory (or symbolic link it, recommended)
+  (to find where your arma3 is installed by steam open library>Arma3>cogwheel>manage>browse local files)
 * in the arma 3 launcher, under the `Mods` tab click `...More` -> `Add watched folder...` -> `Add 'Arma 3' folder`, this will automatically add local mods in yuor arma directory to your mods list for easy loading
 
-### Live editing
+### Live editing (habe ich noch nie getestet)
 * for live editing you need to create this folder structure in your arma 3 directory `x\A3A\addons`, and the create symbolic links from each folder in your repositorys `A3A\addons` folder to the one in your arma directory
 * next you need to go in your arma 3 launchers `Parameters` tab and under `All Parameters` section `Advanced` thick of the parameter `Enable File-Pathcing`, then under the section `Author` thick of the parameter `Debug Mode` (i recommend favoriting these two for ease of use later on)
 * now when you start with the build loaded under the `Mods` tab, it will start in `Dev` mode and allow for recompilation of functions on the go either by reloading the missing or by calling the function `A3A_fnc_prepFunctions`

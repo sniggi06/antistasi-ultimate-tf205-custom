@@ -30,6 +30,7 @@ class cfgHALsStore
 
 	class categories 
 	{
+        #include "config\crocus.hpp"
 		#include "config\3cbbaf.hpp"
 		#include "config\3cbf.hpp"
 		#include "config\3cbfcw.hpp"
@@ -1078,5 +1079,14 @@ class cfgHALsStore
 				"magazinesQDI"
 			};
 		};
+
+        class crocus_stock
+        {
+            displayName = $STR_ARMS_DEALER_STORE;
+            categories[] = {
+                "crocus"
+            };
+        };
+
 	};
 };

@@ -238,3 +238,7 @@
         {
             prefix = "rearma_ru_stock";
         };
+        class weapons_crocus : weapons_base
+        {
+            prefix = "crocus_stock";
+        };

@@ -432,3 +432,8 @@
         addons[] = {"rus_weapon_rifles"};
         weapons = "weapons_rearma_ru";
     };
+    class addons_crocus : addons_base
+    {
+        addons[] = {"ArmaFPV_Data"};
+        weapons = "weapons_crocus";
+    };

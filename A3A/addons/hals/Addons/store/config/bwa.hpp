@@ -95,11 +95,12 @@
 			displayName = __EVAL(formatText ["%1 %2", localize "STR_A3AU_bwa", localize "STR_A3AU_launchers"]);
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\secondaryWeapon_ca.paa";
 			
-			ITEM(BWA3_Bunkerfaust_Loaded, 500, 25); 
+			ITEM(BWA3_Bunkerfaust_Loaded, 6969, 25); 
 			ITEM(BWA3_PzF3_Tandem_Loaded, 600, 25); 
 			ITEM(BWA3_RGW90_Loaded, 700, 25); 
 			ITEM(BWA3_CarlGustav, 800, 25); 
 			ITEM(BWA3_Fliegerfaust, 700, 25); 
+			ITEM(B_Crocus_AP_TI_Bag, 111, 25); 
 			
 		}; 
 

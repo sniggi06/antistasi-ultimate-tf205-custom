@@ -443,3 +443,40 @@
                 ITEM(CUP_20Rnd_762x51_B_M110, 300, MAGAZINE_STOCK);	
                 ITEM(CUP_5Rnd_762x51_M24, 300, MAGAZINE_STOCK);
             };
+
+		class riflesHK416 
+        {
+        displayName = "HK416 RIFLES";
+        picture = "";	
+        			ITEM(MCC_HK416A8_556_11_BLK_HK, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_11_FDE_HK, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_11_BLK_CTR, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_11_FDE_CTR, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_11_BLK_Bravo, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_11_FDE_Bravo, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_14_BLK_HK, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_14_FDE_HK, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_14_BLK_CTR, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_14_FDE_CTR, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_14_BLK_Bravo, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_14_FDE_Bravo, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_16_BLK_HK, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_16_FDE_HK, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_16_BLK_CTR, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_16_FDE_CTR, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_16_BLK_Bravo, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_HK416A8_556_16_FDE_Bravo, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_G95_KSK_556, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_G95KA1_556, 1000, RIFLE_STOCK);	
+        			ITEM(MCC_G95A1_556, 1000, RIFLE_STOCK);		
+        		}; 
+        
+        class magazinesHK16
+        {
+        displayName = "HK416 MAGAZINES";
+        picture = "";	
+                    ITEM(MCC_HK_556_30_BLK_TSX, 200, MAGAZINE_STOCK);	
+                    ITEM(MCC_HK_556_30_RAL_TSX, 200, MAGAZINE_STOCK);	
+                    ITEM(MCC_HK_556_30_FDE_TSX, 200, MAGAZINE_STOCK);	
+                    ITEM(MCC_HK_556_30_RAL_M855, 200, MAGAZINE_STOCK);
+                };

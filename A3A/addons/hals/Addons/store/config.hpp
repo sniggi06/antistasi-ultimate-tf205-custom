@@ -1086,7 +1086,9 @@ class cfgHALsStore
             categories[] = {
                 "crocus",
                 "mssRifles",
-                "mssMagazines"
+                "mssMagazines",
+                "riflesHK416",
+                "magazinesHK416"
             };
         };
 

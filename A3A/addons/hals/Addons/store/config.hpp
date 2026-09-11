@@ -1084,7 +1084,9 @@ class cfgHALsStore
         {
             displayName = $STR_ARMS_DEALER_STORE;
             categories[] = {
-                "crocus"
+                "crocus",
+                "mssRifles",
+                "mssMagazines"
             };
         };
 

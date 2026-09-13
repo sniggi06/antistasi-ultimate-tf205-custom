@@ -10,27 +10,141 @@
 ["flagTexture", QPATHTOFOLDER(Templates\Templates\CUP\images\flag_old_nato_co.paa)] call _fnc_saveToTemplate;
 ["flagMarkerType", "a3u_flag_nato_wa"] call _fnc_saveToTemplate;
 
-["vehiclesBasic", ["CUP_C_TT650_TK_CIV"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", ["CUP_B_LR_Transport_GB_W", "a3u_cup_m1025_unarmed_olive"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["a3u_cup_lr_mg_wl", "a3u_cup_m1025_m240_olive", "a3u_cup_m1025_sov_m2_olive"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["a3u_cup_mtvr_wl"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["a3u_cup_m1036_tow_olive"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["CUP_B_M163_Vulcan_USA"]] call _fnc_saveToTemplate;
-["vehiclesBoat", ["CUP_B_RHIB_USMC"]] call _fnc_saveToTemplate;
+["vehiclesBasic", [
+    "CUP_C_TT650_TK_CIV",
+    "I_G_Quadbike_01_F",
+    "NDS_6x6_ATV_CIV",
+    "NDS_6x6_ATV_MIL",
+    "NDS_6x6_ATV_MIL2",
+    "NDS_6x6_ATV_MIL_LR",
+    "NDS_6x6_ATV_MIL2_LR",
+    "CUP_B_M151_HIL"
+    ]] call _fnc_saveToTemplate;
+
+["vehiclesLightUnarmed", [
+    "CUP_B_LR_Transport_GB_W",
+    "a3u_cup_m1025_unarmed_olive",
+    //pickups
+    "CUP_I_Hilux_unarmed_TK",
+    "C_Offroad_02_unarmed_F",
+    "B_T_LSV_01_unarmed_F"
+    //offroads
+
+]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", [
+    "a3u_cup_lr_mg_wl",
+    "a3u_cup_m1025_m240_olive",
+    "a3u_cup_m1025_sov_m2_olive",
+    "CUP_I_Hilux_DSHKM_TK",
+    "CUP_I_Hilux_M2_TK",
+    "CUP_B_LR_MG_GB_W",
+    "CUP_I_LR_SF_HMG_AAF",
+    "CUP_B_M151_M2_HIL",
+    "I_G_Offroad_01_armed_F",
+    "B_T_LSV_01_armed_F",
+    //gepanzert, unbewaffnet
+    "BWA3_Eagle_Fleck",
+    "I_MRAP_03_F",
+    //2x MG (fraglich)
+    "CUP_B_BAF_Coyote_L2A1_W",
+    "CUP_B_LR_Special_M2_GB_W",
+    //trucks, die aber bewaffnet/gepanzert sind
+    "CUP_B_T810_Armed_CZ_WDL",
+    "CUP_O_Kamaz_6396_transport_RUS_M"
+]] call _fnc_saveToTemplate;
+
+["vehiclesTruck", [
+    "a3u_cup_mtvr_wl",
+    "B_T_Truck_01_mover_F",
+    "CUP_B_LR_Ambulance_CZ_W",
+    "BWA3_Multi_Fleck",
+    "CUP_B_T810_Unarmed_CZ_WDL"
+]] call _fnc_saveToTemplate;
+
+["vehiclesAT", [
+    "a3u_cup_m1036_tow_olive",
+    "CUP_I_Hilux_metis_TK",
+    "CUP_I_Hilux_SPG9_TK",
+    "I_C_Offroad_02_AT_F",
+    "I_G_Offroad_01_AT_F"
+]] call _fnc_saveToTemplate;
+
+["vehiclesAA", [
+    //"CUP_B_M163_Vulcan_USA", //tracked APC mal rausgenommen
+    "CUP_O_Ural_ZU23_RU",
+    "CUP_I_Hilux_zu23_TK"
+]] call _fnc_saveToTemplate;
+
+["vehiclesBoat", [
+    "CUP_B_RHIB_USMC",
+    "C_Rubberboat"
+]] call _fnc_saveToTemplate;
 
 ["vehiclesPlane", ["a3u_cup_cessna_t41"]] call _fnc_saveToTemplate;       // replace from civ varient s
 ["vehiclesCivPlane", ["a3u_cup_cessna"]] call _fnc_saveToTemplate;
 
-["vehiclesCivCar", ["CUP_C_LR_Transport_CTK"]] call _fnc_saveToTemplate;
-["vehiclesCivTruck", ["C_Van_01_transport_F"]] call _fnc_saveToTemplate;
-["vehiclesCivHeli", ["CUP_C_412"]] call _fnc_saveToTemplate;
-["vehiclesCivBoat", ["CUP_C_Fishing_Boat_Chernarus"]] call _fnc_saveToTemplate;
+["vehiclesCivCar", [
+    //shitboxen
+    "CUP_C_Golf4_CR_Civ",
+    "CUP_C_Octavia_CIV",
+    "C_Hatchback_01_sport_F",
+    "C_Kart_01_F",
+    "CUP_C_S1203_CIV",
+    "CUP_C_Tractor_CIV",
+    "C_Offroad_02_unarmed_F",
+    "C_Offroad_01_F"
+]] call _fnc_saveToTemplate;
 
-["staticMGs", ["CUP_B_M2StaticMG_US", "CUP_B_M2StaticMG_MiniTripod_US"]] call _fnc_saveToTemplate;
-["staticAT", ["CUP_B_TOW_TriPod_US"]] call _fnc_saveToTemplate;
-["staticAA", ["CUP_B_CUP_Stinger_AA_pod_US"]] call _fnc_saveToTemplate;
+["vehiclesCivTruck", [
+    "C_Van_02_vehicle_F",
+    "C_Van_01_transport_F",
+    "C_Van_02_transport_F",
+    "CUP_C_LR_Transport_CTK",
+    "O_Truck_02_transport_F"
+]] call _fnc_saveToTemplate;
 
-["staticMortars", ["CUP_B_L16A2_BAF_WDL"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", [
+    "CUP_C_412",
+    "C_Heli_Light_01_civil_F",
+    //nicht civ aber keine Ahnung wie einstellbar
+    "B_Heli_Transport_01_unarmed_F",
+    "CUP_I_Merlin_HC3_PMC_Transport_black",
+    "CUP_I_MH6M_ION",
+    "CUP_B_Zodiac_USMC",
+    "BWA3_NH90_TTH_Fleck"
+]] call _fnc_saveToTemplate;
+
+["vehiclesCivBoat", [
+    "CUP_C_Fishing_Boat_Chernarus",
+    "C_Rubberboat"
+]] call _fnc_saveToTemplate;
+
+["staticMGs", [
+    "CUP_B_M2StaticMG_US",
+    "CUP_B_M2StaticMG_MiniTripod_US",
+    "CUP_B_DSHKM_ACR",
+    "CUP_O_KORD_high_RU",
+    "CUP_B_L111A1_MiniTripod_BAF_DDPM",
+    "I_C_HMG_02_F",
+    "I_C_HMG_02_high_F"
+]] call _fnc_saveToTemplate;
+
+["staticAT", [
+    "CUP_B_TOW_TriPod_US",
+    "CUP_O_Kornet_RU",
+    "CUP_O_Metis_RU",
+    "I_E_Static_AT_F",
+    "CUP_B_SPG9_AFU",
+    "BWA3_MELLS_static_Fleck"
+]] call _fnc_saveToTemplate;
+
+["staticAA", [
+    "CUP_B_CUP_Stinger_AA_pod_US",
+    "I_E_Static_AA_F",
+    "CUP_B_ZU23_AFU"
+]] call _fnc_saveToTemplate;
+
+["staticMortars", ["CUP_B_L16A2_BAF_WDL","I_E_Mortar_01_F"]] call _fnc_saveToTemplate;
 ["staticMortarMagHE", "8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", "8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
 ["staticMortarMagFlare", "8Rnd_82mm_Mo_Flare_white"] call _fnc_saveToTemplate;

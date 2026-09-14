@@ -27,9 +27,9 @@
     //pickups
     "CUP_I_Hilux_unarmed_TK",
     "C_Offroad_02_unarmed_F",
-    "B_T_LSV_01_unarmed_F"
+    "B_T_LSV_01_unarmed_F",
     //gepanzert, unbewaffnet, teurer gemacht
-    "BWA3_Eagle_Fleck",
+    "BWA3_Eagle_Fleck"
 
 ]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", [

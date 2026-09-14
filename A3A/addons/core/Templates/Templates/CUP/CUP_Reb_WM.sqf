@@ -66,13 +66,18 @@
     "CUP_I_Hilux_metis_TK",
     "CUP_I_Hilux_SPG9_TK",
     "I_C_Offroad_02_AT_F",
-    "I_G_Offroad_01_AT_F"
+    "I_G_Offroad_01_AT_F",
+    "B_T_LSV_01_AT_F",
+    //light helo: test
+    "CUP_B_MH6M_USA"
 ]] call _fnc_saveToTemplate;
 
 ["vehiclesAA", [
     //"CUP_B_M163_Vulcan_USA", //tracked APC mal rausgenommen
     "CUP_O_Ural_ZU23_RU",
-    "CUP_I_Hilux_zu23_TK"
+    "CUP_I_Hilux_zu23_TK",
+    "CUP_I_Hilux_igla_TK",
+    "CUP_I_LR_AA_AAF"
 ]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", [
@@ -141,7 +146,7 @@
 ["staticAA", [
     "CUP_B_CUP_Stinger_AA_pod_US",
     "I_E_Static_AA_F",
-    "CUP_B_ZU23_AFU"
+   "CUP_B_ZU23_AFU"
 ]] call _fnc_saveToTemplate;
 
 ["staticMortars", ["CUP_B_L16A2_BAF_WDL","I_E_Mortar_01_F"]] call _fnc_saveToTemplate;

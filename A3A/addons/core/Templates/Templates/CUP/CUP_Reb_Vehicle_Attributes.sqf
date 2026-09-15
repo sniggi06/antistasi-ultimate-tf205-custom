@@ -93,7 +93,7 @@
     // WM - AA vehicles
     // ============================================================
 
-    ["CUP_O_Ural_ZU23_RU", ["rebCost", 500]],
+    ["CUP_O_Ural_ZU23_RU", ["rebCost", 5000]],
     ["CUP_I_Hilux_zu23_TK", ["rebCost", 5000]],
     ["CUP_I_Hilux_igla_TK", ["rebCost", 7000]],
     ["CUP_I_LR_AA_AAF", ["rebCost", 7000]],

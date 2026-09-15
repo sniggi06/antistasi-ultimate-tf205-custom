@@ -111,9 +111,12 @@
     // WM - Plane
     // ============================================================
 
-    // TODO: Preis festlegen
     ["a3u_cup_cessna_t41", ["rebCost", 8000]],
-
+    //unbewaffnete helis
+    ["B_Heli_Transport_01_unarmed_F", ["rebCost", 12000]],
+    ["CUP_I_Merlin_HC3_PMC_Transport_black", ["rebCost", 12000]],
+    ["CUP_I_MH6M_ION", ["rebCost", 12000]],
+    ["BWA3_NH90_TTH_Fleck", ["rebCost", 12000]],
 
     // ============================================================
     // WM - Civilian / basic vehicles

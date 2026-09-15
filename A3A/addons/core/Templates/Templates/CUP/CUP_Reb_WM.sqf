@@ -67,9 +67,7 @@
     "CUP_I_Hilux_SPG9_TK",
     "I_C_Offroad_02_AT_F",
     "I_G_Offroad_01_AT_F",
-    "B_T_LSV_01_AT_F",
-    //light helo: test
-    "CUP_B_MH6M_USA"
+    "B_T_LSV_01_AT_F"
 ]] call _fnc_saveToTemplate;
 
 ["vehiclesAA", [
@@ -85,7 +83,9 @@
     "C_Rubberboat"
 ]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["a3u_cup_cessna_t41"]] call _fnc_saveToTemplate;       // replace from civ varient s
+["vehiclesPlane", [
+    "a3u_cup_cessna_t41"
+]] call _fnc_saveToTemplate;       // replace from civ varient s
 ["vehiclesCivPlane", ["a3u_cup_cessna"]] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", [
@@ -110,14 +110,9 @@
 
 ["vehiclesCivHeli", [
     "CUP_C_412",
-    "C_Heli_Light_01_civil_F",
-    //nicht civ aber keine Ahnung wie einstellbar
-    "B_Heli_Transport_01_unarmed_F",
-    "CUP_I_Merlin_HC3_PMC_Transport_black",
-    "CUP_I_MH6M_ION",
-    "CUP_B_Zodiac_USMC",
-    "BWA3_NH90_TTH_Fleck"
+    "C_Heli_Light_01_civil_F"
 ]] call _fnc_saveToTemplate;
+
 
 ["vehiclesCivBoat", [
     "CUP_C_Fishing_Boat_Chernarus",

@@ -188,8 +188,9 @@ if (local _atv) then
 
 
 // removed function body to disable respawning
-NDS_fnc_6x6_respawn1 = {};
-
+NDS_fnc_6x6_respawn1 = {
+    hint "Respawn Point wurde aus Balance-Gründen deaktiviert.\nWar zu faul, den Menü-Prompt zu entfernen\n-Niklas";
+};
 
 NDS_fnc_6x6_respawnbag = {
 //params ["_atv", "_owner"];

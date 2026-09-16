@@ -1,0 +1,6 @@
+How to install?
+---------------
+
+- Copy the entire @NDS_SpecOps_Veh folder to C:\Program Files (x86)\Steam\steamapps\common\Arma 3
+
+

@@ -187,9 +187,8 @@ if (local _atv) then
 
 
 
-
+// removed function body to disable respawning
 NDS_fnc_6x6_respawn1 = {};
-
 
 
 NDS_fnc_6x6_respawnbag = {

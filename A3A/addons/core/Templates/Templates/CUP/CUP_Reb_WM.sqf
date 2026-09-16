@@ -29,7 +29,9 @@
     "C_Offroad_02_unarmed_F",
     "B_T_LSV_01_unarmed_F",
     //gepanzert, unbewaffnet, teurer gemacht
-    "BWA3_Eagle_Fleck"
+    "BWA3_Eagle_Fleck",
+    // fennek mit laser designator
+    "I_MRAP_03_F"
 
 ]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", [
@@ -48,9 +50,7 @@
     "CUP_B_LR_Special_M2_GB_W",
     //trucks, die aber bewaffnet/gepanzert sind
     "CUP_B_T810_Armed_CZ_WDL",
-    "CUP_O_Kamaz_6396_transport_RUS_M",
-    // fennek mit laser designator
-    "I_MRAP_03_F"
+    "CUP_O_Kamaz_6396_transport_RUS_M"
 ]] call _fnc_saveToTemplate;
 
 ["vehiclesTruck", [

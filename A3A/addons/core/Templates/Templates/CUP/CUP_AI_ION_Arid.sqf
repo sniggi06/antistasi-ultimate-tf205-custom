@@ -2,8 +2,8 @@
 //   Side Information   //
 //////////////////////////
 
-["name", "ION"] call _fnc_saveToTemplate;
-["spawnMarkerName", "ION support corridor"] call _fnc_saveToTemplate;
+["name", "Wagner"] call _fnc_saveToTemplate;
+["spawnMarkerName", "Wagner support corridor"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_ION_F"] call _fnc_saveToTemplate;
 ["flagTexture", "cup\baseconfigs\cup_baseconfigs\data\flags\flag_ion_black_co.paa"] call _fnc_saveToTemplate;

@@ -1090,6 +1090,8 @@ class cfgHALsStore
                 "riflesHK416",
                 "magazinesHK416",
                 "mccScopes",
+                "migHelmets",
+                "migNVGS",
             };
         };
 

@@ -633,3 +633,88 @@
                     ITEM(MCC_LCO_PRO_F2_UnityX_FDE_Down, 400, 40);
                     ITEM(MCC_LCO_PRO_F2_UnityX_FDE_Up, 400, 40);
             };
+
+    class migHelmets{
+        displayName = __EVAL(formatText ["%1 %2","MIG","HELMETS"]);
+        picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\handgun_ca.paa";
+
+        ITEM(MIG_AIRFRAME_TAN_CLEAN, 500, 50);
+        ITEM(MIG_AIRFRAME_OCP_CLEAN, 500, 50);
+        ITEM(MIG_AIRFRAME_TAN_COVER, 500, 50);
+        ITEM(MIG_AIRFRAME_OCP_COVER, 500, 50);
+        ITEM(MIG_AIRFRAME_TAN_FULL_KIT, 500, 50);
+        ITEM(MIG_AIRFRAME_OCP_FULL_KIT, 500, 50);
+        ITEM(MIG_FTHS_TAN_CLEAN, 500, 50);
+        ITEM(MIG_FTHS_OCP_CLEAN, 500, 50);
+        ITEM(MIG_FTHS_BLK_CLEAN, 500, 50);
+        ITEM(MIG_FTHS_TAN_FULL_KIT, 500, 50);
+        ITEM(MIG_FTHS_MOAB_FULL_KIT, 500, 50);
+        ITEM(MIG_FTHS_OCP_FULL_KIT, 500, 50);
+        ITEM(MIG_FTHS_TAN_PLATATAC, 500, 50);
+        ITEM(MIG_FTHS_BRN_PLATATAC, 500, 50);
+        ITEM(MIG_FTHS_Arctic_PLATATAC, 500, 50);
+        ITEM(MIG_FTHS_OCP_PLATATAC, 500, 50);
+        ITEM(MIG_FTHS_BLK_PLATATAC, 500, 50);
+        ITEM(MIG_FTHS_OCP_SCRIM, 500, 50);
+        ITEM(MIG_FTHS_OD_SCRIM, 500, 50);
+        ITEM(MIG_FTHS_ARCTIC_SCRIM, 500, 50);
+        ITEM(MIG_FTHS_ARCTIC2_SCRIM, 500, 50);
+        ITEM(MIG_FTHS_SCRIM_TAN, 500, 50);
+        ITEM(MIG_Galvion_Bump_BLK_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Bump_BLK_Full, 500, 50);
+        ITEM(MIG_Galvion_Bump_TAN_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Bump_TAN_Full, 500, 50);
+        ITEM(MIG_Galvion_Bump_OD_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Bump_OD_Full, 500, 50);
+        ITEM(MIG_Galvion_Bump_OCP_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Bump_OCP_Full, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_BLK_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_BLK_Full, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_TAN_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_TAN_Full, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_OD_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_OD_Full, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_OCP_CLEAN, 500, 50);
+        ITEM(MIG_Galvion_Ballistic_OCP_Full, 500, 50);
+        ITEM(MIG_SFHC_TAN_CLEAN, 500, 50);
+        ITEM(MIG_SFHC_BLK_CLEAN, 500, 50);
+        ITEM(MIG_SFHC_TAN_Peltor, 500, 50);
+        ITEM(MIG_SFHC_BLK_Peltor, 500, 50);
+        ITEM(MIG_SFHC_TAN_FULL_KIT, 500, 50);
+        ITEM(MIG_SFHC_BLK_FULL_KIT, 500, 50);
+    };
+
+    class migNVGS{
+        displayName = __EVAL(formatText ["%1 %2","MIG","NVGS"]);
+        picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\handgun_ca.paa";
+        ITEM(MIG_GPNVG18_BLK, 1000, 50);
+        ITEM(MIG_GPNVG18_FDE, 1000, 50);
+        ITEM(MIG_GPNVG18_DayOps_BLK, 1000, 50);
+        ITEM(MIG_GPNVG18_DayOps_FDE, 1000, 50);
+        ITEM(MIG_PVS14_L, 1000, 50);
+        ITEM(MIG_PVS14_DayOps_L, 1000, 50);
+        ITEM(MIG_PVS14_R, 1000, 50);
+        ITEM(MIG_PVS14_DayOps_R, 1000, 50);
+        ITEM(MIG_PVS14_B, 1000, 50);
+        ITEM(MIG_PVS14_DayOps_B, 1000, 50);
+        ITEM(MIG_PVS14_B_TAN, 1000, 50);
+        ITEM(MIG_PVS14_DayOps_B_TAN, 1000, 50);
+        ITEM(MIG_PVS31_STD, 1000, 50);
+        ITEM(MIG_PVS31_LOW, 1000, 50);
+        ITEM(MIG_PVS31_LOW_Up, 1000, 50);
+        ITEM(MIG_PVS31_DayOps_STD, 1000, 50);
+        ITEM(MIG_FBINO_BLK_STD, 1000, 50);
+        ITEM(MIG_FBINO_BLK_DayOps_STD, 1000, 50);
+        ITEM(MIG_FBINO_BLK_LOW, 1000, 50);
+        ITEM(MIG_FBINO_BLK_LOW_Up, 1000, 50);
+        ITEM(MIG_FBINO_FDE_STD, 1000, 50);
+        ITEM(MIG_FBINO_FDE_DayOps_STD, 1000, 50);
+        ITEM(MIG_FBINO_FDE_LOW, 1000, 50);
+        ITEM(MIG_FBINO_FDE_LOW_Up, 1000, 50);
+        ITEM(MIG_FPANO_BLK, 1000, 50);
+        ITEM(MIG_FPANO_DayOps_BLK, 1000, 50);
+        ITEM(MIG_FPANO_FDE, 1000, 50);
+        ITEM(MIG_FPANO_DayOps_FDE, 1000, 50);
+
+    };
+
